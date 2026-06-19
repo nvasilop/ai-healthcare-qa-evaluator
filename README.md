@@ -3,6 +3,11 @@
 A proof-of-concept **Quality Assurance (QA) framework** for testing AI healthcare
 agents using **synthetic patient scenarios**. Built with Python and Streamlit.
 
+## Live Demo
+
+You can try the app here:
+https://ai-healthcare-evaluator.streamlit.app/ 
+
 ---
 
 ## 1. Project Overview
