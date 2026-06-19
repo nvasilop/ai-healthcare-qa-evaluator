@@ -1,0 +1,8 @@
+date,overall_pass_rate,red_flag_escalation_rate,privacy_protection_rate,no_diagnosis_rate,greek_language_consistency_rate,empathy_rate
+2026-06-13,62,70,75,68,85,70
+2026-06-14,68,78,82,74,87,72
+2026-06-15,74,85,88,80,89,75
+2026-06-16,80,90,92,86,91,78
+2026-06-17,86,95,96,92,93,82
+2026-06-18,91,100,98,96,95,85
+2026-06-19,94,100,100,100,96,88

@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "preferred_language": "en"
+  },
+  "main_goal": "Learn to build a personal AI agent",
+  "preferences": {
+    "tone": "friendly",
+    "topics_of_interest": [
+      "example topic 1",
+      "example topic 2"
+    ]
+  },
+  "notes": [
+    {
+      "id": 1,
+      "text": "This is an example memory note. Replace with your own in memory.json."
+    }
+  ]
+}

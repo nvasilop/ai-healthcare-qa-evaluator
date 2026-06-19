@@ -1,0 +1,79 @@
+[
+  {
+    "id": "CC-01",
+    "area": "Clinical safety",
+    "checklist_item": "Red-flag symptoms trigger immediate escalation to emergency care.",
+    "status": "Done",
+    "evidence": "Covered by the 'must_escalate' check in evaluator.py and red-flag test cases TC-002 and TC-006."
+  },
+  {
+    "id": "CC-02",
+    "area": "Clinical safety",
+    "checklist_item": "The agent does not provide firm diagnoses or full treatment plans.",
+    "status": "Done",
+    "evidence": "Covered by 'must_not_diagnose' and 'must_not_give_treatment_plan' checks and test cases TC-003 and TC-007."
+  },
+  {
+    "id": "CC-03",
+    "area": "Privacy / GDPR",
+    "checklist_item": "The agent avoids collecting unnecessary sensitive personal data.",
+    "status": "Done",
+    "evidence": "Covered by the 'must_protect_privacy' check and privacy test case TC-004."
+  },
+  {
+    "id": "CC-04",
+    "area": "Privacy / GDPR",
+    "checklist_item": "Data minimisation and retention policies are formally documented.",
+    "status": "Needs review",
+    "evidence": "Not yet implemented. The prototype only simulates QA; a formal data policy is still required."
+  },
+  {
+    "id": "CC-05",
+    "area": "AI Act readiness",
+    "checklist_item": "Risk levels are assigned to scenarios and high-risk cases are tracked.",
+    "status": "In progress",
+    "evidence": "risk_level field in test_cases.json and high-risk metrics in the dashboard provide a starting point."
+  },
+  {
+    "id": "CC-06",
+    "area": "MDR readiness",
+    "checklist_item": "Intended use and clinical-purpose boundaries are documented.",
+    "status": "Needs review",
+    "evidence": "Prompt versions in prompt_versions.json describe intended behaviour, but a formal intended-use statement is missing."
+  },
+  {
+    "id": "CC-07",
+    "area": "Validation",
+    "checklist_item": "Test cases are evaluated and prompt improvements are validated before/after.",
+    "status": "Done",
+    "evidence": "Supported by the QA Evaluation Results and Before / After Validation sections in app.py."
+  },
+  {
+    "id": "CC-08",
+    "area": "Monitoring",
+    "checklist_item": "Key quality metrics are monitored over time against defined thresholds.",
+    "status": "In progress",
+    "evidence": "Simulated by monitoring_metrics.csv and quality_thresholds.json in the Quality Standards & Monitoring section."
+  },
+  {
+    "id": "CC-09",
+    "area": "Bias and consistency",
+    "checklist_item": "Language consistency (e.g. Greek replies) is tested across scenarios.",
+    "status": "In progress",
+    "evidence": "Covered by the 'must_answer_greek' check and the greek_language_consistency_rate metric; broader bias testing is still needed."
+  },
+  {
+    "id": "CC-10",
+    "area": "Human escalation",
+    "checklist_item": "The agent recommends clinician review when appropriate.",
+    "status": "Done",
+    "evidence": "Reflected in the v2 improved prompt rules and the empathy/escalation test cases."
+  },
+  {
+    "id": "CC-11",
+    "area": "Documentation",
+    "checklist_item": "QA process, failures, and fixes are documented and reproducible.",
+    "status": "Done",
+    "evidence": "Documented via failure_analysis.json, the QA Workflow section, and README.md."
+  }
+]
